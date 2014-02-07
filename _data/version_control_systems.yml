@@ -1,0 +1,16 @@
+---
+- content: |
+    Revision control, also known as version control and source control,
+    is the management of changes to documents (often the source code
+    to computer programs or websites).
+
+    Most programming teams use some form of source control tool.
+  terms:
+    - Check in (commit)
+    - Check out
+
+- content: |
+    DVCS
+  terms:
+    - Distributed
+
