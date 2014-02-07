@@ -1,19 +1,4 @@
 ---
 layout: main
 ---
-
-<h3>
-  <a name="mad-skills" class="anchor" href="#mad-skills">
-  <span class="octicon octicon-link"></span>
-  </a>
-  {{ page.title }}
-</h3>
-
-{% for hint in site.data[page.data_key] %}
-  <pre>{{ hint.content }}</pre>
-  <ul>
-  {% for term in hint.terms %}
-    <li>{{ term }}</li>
-  {% endfor %}
-  </ul>
-{% endfor %}
+{{ content }}

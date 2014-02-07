@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Mad skills</title>
+    <title>{{ page.title }}{% if t == "" %}Mad Skills{% endif %}</title>
 
     <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/styles.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/pygment_trac.css">
@@ -17,8 +17,9 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Mad skills</h1>
+        <a href="{{ site.baseurl }}/"><h1>Mad skills</h1>
         <p>Reducing the assumed knowledge burden in programming education resources</p>
+        </a>
         <p class="view"><a href="https://github.com/DanielHeath/mad_skills">View the Project on GitHub <small>DanielHeath/mad_skills</small></a></p>
         <ul>
           <li><a href="https://github.com/DanielHeath/mad_skills">Contribute On <strong>GitHub</strong></a></li>

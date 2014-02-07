@@ -12,20 +12,17 @@ layout: post
 title: #{title}
 data_key: #{filename}
 ---
-    EOF
-  end
-  File.open("_data/#{filename}.yml", "w") do |f|
-    f.write <<-EOF
----
-- content: |
-    Your first item
-  terms:
-    - A term beginners should learn
+<pre>Your first item</pre>
 
-- content: |
-    Your second item
-  terms:
-    - Another term for early-stage learners
+## Glossary
+1. A simple term
+2. Another simple term
+
+<pre>Your second item</pre>
+
+## Glossary
+1. A simple term
+
     EOF
   end
 
