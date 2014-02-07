@@ -3,3 +3,4 @@ lsi: false
 pygments: true
 source: .
 permalink: :title
+baseurl: "http://danielheath.github.io/mad_skills"
